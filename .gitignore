@@ -1,0 +1,43 @@
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# Build artifacts
+*.build/
+*.bak
+*.swp
+*.orig
+*.save
+
+# Environment files
+.env
+.env.local
+.netrc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+.coverage
+coverage/
+*.gcda
+*.gcno
